@@ -1,0 +1,185 @@
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    font-size: 500%;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+
+}
+
+h1 .G_of_google{
+    color: hsl(240, 43%, 62%);
+}
+
+h1 .o_and_e_of_google{
+    color: rgb(191, 87, 87);
+    
+}
+
+h1 .other_o_of_google{
+    color: rgb(210, 210, 52);
+}
+
+h1 .l_of_google{
+    color: rgb(33, 133, 33);
+}
+
+body {
+    background-color: #202124;
+}
+.india{
+    color:#ccc;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0; /* Add some padding to the footer content */
+    background-color: rgb(70, 63, 63);
+}
+
+footer .india,
+footer hr,
+footer .want_on_right,
+footer .want_on_left {
+    margin: 0 20px; /* Add margin to the left and right sides of the footer content */
+    color: #9AA0A6;
+}
+
+
+footer .india {
+    color: #ccc;
+    float: left;
+     /* Align the "India" text to the left */
+     margin: 10px 10px 10px;
+     padding-left: 20px;
+}
+
+footer hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    clear: both; /* Clear the float to avoid layout issues */
+}
+
+footer .want_on_right {
+    float: right; /* Align the links to the right */
+    word-spacing: 10px;
+
+}
+footer a{
+    text-decoration: none;
+    color: #ccc;
+}
+footer .want_on_left{
+    padding-top: 10px;
+    justify-content: space-evenly;
+    word-spacing: 10px;
+    margin: 10px 10px 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-left: 20px;
+}
+.how_search_works{
+    word-spacing: 0px;
+}
+.img {
+    width: 50px;
+    vertical-align: middle;
+    margin-top: -5px;
+    margin-right: 10px;
+    
+  }
+
+.header-links{
+    text-align: right;
+}
+/* Add these styles to your existing CSS */
+.main-container {
+    background-color: hsl(224, 10%, 21%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 20px auto; /* Center the container horizontally and add some spacing */
+    padding: 20px;
+    max-width: 400px; /* Limit the width of the container */
+}
+
+.input-img-container {
+    background-color: #202124;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px dashed #ccc; /* Inner border for .input-img-container */
+    border-radius: 10px;
+    border-width: 2px;
+    border-color: #0a0b0c;
+    padding: 20px;
+    margin-top: 20px; /* Add some spacing between the containers */
+}
+.text-above-uploading{
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.submit{
+    border-radius: 7px;
+    background-color: hsl(224, 10%, 21%);
+    height: 25px;
+    display: inline-block;
+}
+
+
+@keyframes popup{
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+
+
+.submit:hover{
+    background-color: rgb(39, 35, 35);
+    animation: popup 1s ease-in-out 1 forwards;
+  transform: scale(1.1); 
+  box-shadow: 10px 10px 10px black;
+}
+.search{
+    background-color: hsl(224, 10%, 21%);
+    border-radius: 100px;
+    height: 25px;
+    width: 200px;
+}
+.search:hover{
+    border: solid;
+    border-width: 0.5px;
+}
+.text-under-google{
+    text-align: center;
+}
+.text-under-google{
+    font-size: 20px;
+}
+.gmail{
+    margin: 10px;
+    text-decoration: none;
+    color:aliceblue;
+    padding: 10px;
+}
+.gmail:hover{
+    text-decoration: underline;
+}
+.home-page{
+    text-decoration: none;
+    color:aliceblue;
+}
+.home-page:hover{
+    text-decoration: underline;
+}

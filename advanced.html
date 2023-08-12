@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="advanced.css">
+    <link rel="icon" href="All_Images/icons8-google-48.png">
+    <title>Google Advanced Search</title>
+</head>
+<body>
+    <header class="header-container">
+        <div class="div_container">
+            <a href="index.html"><img src="All_Images/pngwing.com-removebg-preview.png" alt="home-page" class="google-image-header"></a>
+        </div>
+    </header>
+
+    <main>
+        <div class="advanced_search_name">Advanced Search</div>
+        <div class="find_pages_with">
+            <span class="find-text">Find pages with...</span>
+            <span class="want_on_right">To do this in the search box.</span>
+        </div>
+
+<!-- ... Your existing code ... -->
+
+<form action="" class="advanced-form">
+    <div class="input-container">
+        <label for="all-words" class="text-on-right">all these words:</label>
+        <input type="search" name="all-words" id="all-words" class="search-box">
+        <span class="constant_text_for_right"> Type the important words: tri-colour rat terrier </span>
+    </div>
+
+    <div class="input-container">
+        <label for="exact-phrase" class="text-on-right">this exact word or phrase:</label>
+        <input type="search" name="exact-phrase" id="exact-phrase" class="search-box">
+       <span class="constant_text_for_right"> Put exact words in quotes: "rat terrier"</span>
+    </div>
+
+    <div class="input-container">
+        <label for="any-words" class="text-on-right">any of these words:</label>
+        <input type="search" name="any-words" id="any-words" class="search-box">
+        <span class="constant_text_for_right"> Type OR between all the words you want: miniature OR standard </span>
+    </div>
+
+    <div class="input-container">
+        <label for="none-words" class="text-on-right">none of these words:</label>
+        <input type="search" name="none-words" id="none-words" class="search-box">
+        <span class="constant_text_for_right">Put a minus sign just before words that you don't want: -rodent, -"Jack Russell" </span>
+    </div>
+
+    <div class="input-container">
+        <label for="number-range" class="text-on-right">numbers ranging from:</label>
+        <input type="number" name="number-range" id="left_thingy" class="search-box">
+        <label for="right_thingy" class="right_thingy_text">to</label>
+        <input type="number" name="right_thingy" id="right_thingy" class="search-box">
+        <span class="constant_text_for_right">Put two full stops between the numbers and add a unit of measurement: 10..35 kg, £300..£500, 2010..2011 </span>
+    </div>
+
+    <hr>
+        <div class="find_pages_with">
+            <span class="find-text">Then narrow your results by...
+            </span>
+        </div>
+
+
+<div class="input-container dropdown-container">
+    <label for="select-option" class="text-on-right">language:</label>
+    <select id="select-option" class="dropdown-box">
+        <option value="option0">any language</option>
+        <option value="option1">English</option>
+        <option value="option2">Hindi</option>
+        <option value="option3">Marathi</option>
+    </select>
+    <span class="constant_text_for_right">Find pages in the language that you select.</span>
+</div>
+
+<div class="input-container dropdown-container">
+    <label for="select-option" class="text-on-right">region:</label>
+    <select id="select-option" class="dropdown-box">
+        <option value="option0">any region</option>
+        <option value="option1">India</option>
+        <option value="option2">Germany</option>
+        <option value="option3">USA</option>
+    </select>
+    <span class="constant_text_for_right">Find pages published in a particular region.</span>
+</div>
+
+<div class="input-container dropdown-container">
+    <label for="select-option" class="text-on-right">last update:</label>
+    <select id="select-option" class="dropdown-box">
+        <option value="option0">anytime</option>
+        <option value="option1">last 24 hours</option>
+        <option value="option2">upto a week ago</option>
+        <option value="option3">upto a month ago</option>
+    </select>
+    <span class="constant_text_for_right">Find pages updated within the time that you specify.</span>
+</div>
+
+<div class="input-container">
+    <label for="exact-phrase" class="text-on-right">site or domain:</label>
+    <input type="search" name="exact-phrase" id="exact-phrase" class="search-box">
+   <span class="constant_text_for_right">site or domain:
+    Search one site (like wikipedia.org ) or limit your results to a domain like .edu, .org or .gov</span>
+</div>
+
+
+<div class="input-container dropdown-container">
+    <label for="select-option" class="text-on-right">terms appearing:</label>
+    <select id="select-option" class="dropdown-box">
+        <option value="option0">anywhere in the page</option>
+        <option value="option1">in the title of the page</option>
+        <option value="option2">in the text of the page</option>
+        <option value="option3">in the url of the page</option>
+    </select>
+    <span class="constant_text_for_right">Search for terms in the whole page, page title or web address, or links to the page you're looking for.
+    </span>
+</div>
+
+<div class="input-container dropdown-container">
+    <label for="select-option" class="text-on-right"><a class="safe_search" href="https://support.google.com/websearch/answer/510?hl=en&visit_id=638273795093329216-1792413274&p=adv_safesearch&rd=1"> SafeSearch: </a></label>
+    <select id="select-option" class="dropdown-box">
+        <option value="option0">Show explicit results</option>
+        <option value="option1">Hide explicit results</option>
+    </select>
+    <span class="constant_text_for_right">Tell <a class="safe_search" href="https://support.google.com/websearch/answer/510?hl=en&visit_id=638273795093329216-1792413274&p=adv_safesearch&rd=1"> SafeSearch: </a> whether to filter sexually explicit content.</span>
+</div>
+
+<div class="input-container dropdown-container">
+    <label for="select-option" class="text-on-right">file type:</label>
+    <select id="select-option" class="dropdown-box">
+        <option value="option0">any format</option>
+        <option value="option1">.pdf</option>
+        <option value="option2">.doc</option>
+        <option value="option3">.ppt</option>
+    </select>
+    <span class="constant_text_for_right">Find pages in the format that you prefer.</span>
+</div>
+
+<div class="input-container dropdown-container">
+    <label for="select-option" class="text-on-right"><a class="safe_search" href="https://support.google.com/websearch/answer/510?hl=en&visit_id=638273795093329216-1792413274&p=adv_safesearch&rd=1"> usable rights: </a></label>
+    <select id="select-option" class="dropdown-box">
+        <option value="option0">not filtered by licence</option>
+        <option value="option1">free to use or share</option>
+        <option value="option2">free to use or share even commercially</option>
+        <option value="option3">free to use or modify</option>
+    </select>
+    <span class="constant_text_for_right">Find pages that you are free to use yourself.</span>
+</div>
+<br>
+<div class="advanced_search_submit">
+    <label for="submit"></label>
+    <input type="submit" name="submit" class="advanced_search_button" value="Advanced Search">
+</div>
+<br>
+<hr>
+<br>
+
+<div class="find_pages_with">
+    <span class="find-text">You can also...</span>
+</div>
+<br>
+<div class="ending_links">
+    <a href="https://support.google.com/websearch/answer/2466433?visit_id=638273795096356562-1057593196&p=adv_pages_similar&hl=en&rd=1">Find pages that are similar to a URL</a>
+</div>
+<div class="ending_links">
+    <a href="https://support.google.com/websearch/answer/54068?hl=en&visit_id=638273795096356562-1057593196&p=adv_pages_visited&rd=1">Search pages that you've visited</a>
+</div>
+<div class="ending_links">
+    <a href="https://support.google.com/websearch/answer/2466433?visit_id=638273795096356562-1057593196&p=adv_operators&hl=en&rd=1">Use operators in the search box</a>
+</div>
+<div class="ending_links">
+    <a href="https://www.google.com/preferences?hl=en-IN">Customise your search settings</a>
+</div>
+
+    </main>
+
+    <br>
+    <br>
+
+
+    <footer>
+        <div class="india">
+        India
+    </div>
+    <hr>
+    <div class="want_on_left">
+        
+        <a href="https://support.google.com/websearch/?visit_id=638273795096356562-1057593196&hl=en-IN&rd=2#topic=3378866">Help</a>
+        <a href="https://policies.google.com/privacy?hl=en-IN&fg=1">Privacy</a>
+        <a href="https://policies.google.com/terms?hl=en-IN&fg=1">Terms</a>
+    </div>
+</footer>
+</body>
+</html>

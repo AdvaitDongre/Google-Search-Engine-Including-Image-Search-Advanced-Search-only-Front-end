@@ -1,0 +1,217 @@
+.google-image-header{
+    text-align: left;
+    width: 100px;
+}
+.advanced_search_name{
+    color: red;
+    font-size:23px;
+    padding-left: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid rgb(195, 209, 195);
+}
+.find_pages_with {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(39, 32, 32);
+    padding-left: 50px;
+    padding-top: 25px;
+    align-items: center;
+    font-size: 20px;
+}
+
+.want_on_right {
+    text-align: right;
+    padding-right: 300px;
+}
+
+/* ... Keep your existing styles ... */
+
+/* Add spacing between labels and input bars */
+.on_the_left label {
+    display: block;
+    margin-bottom: 5px; /* Add space between labels */
+    
+    
+}
+
+/* Style for input bars and their container */
+.on_the_left .input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Add gap between label and input bar */
+}
+
+.on_the_left input {
+    padding: 5px;
+    width: 100%; /* Make input bars expand to fill available space */
+    max-width: calc(50% - 10px); /* Adjust this value as needed */
+}
+.search-box{
+    align-items: center;
+    padding-left: 100px;
+    background-color: white;
+    border: solid 1px rgb(179, 170, 170);
+}
+/* ... Your existing styles ... */
+
+/* Style for input bars and their container */
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.input-container label{
+    padding-left: 50px;
+    padding-top: 25px;
+    align-items: center;
+}
+
+.text-on-right {
+    width: 250px; /* Set a fixed width for the labels */
+    display: inline-block;
+}
+
+.search-box {
+    padding: 5px;
+    width: 100%;
+    max-width: calc(100% - 260px); /* Adjust the value based on the label width */
+    width: 550px;
+
+}
+
+.constant_text_for_right{
+    font-size: 13px;
+    max-width: 260px;
+}
+
+#to{
+    padding-left: 1px;
+    margin-left: 1px;
+    align-items: start;
+}
+#to_text{
+    font-size: 20px;
+    padding: 1px;
+    margin: 1px;
+}
+#number_range{
+    gap: 10px
+}
+
+
+.dropdown-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.dropdown-box {
+    padding: 5px;
+    border-radius: 5px;
+    width: 550px;
+    border-radius: 0%;
+}
+.selected-option {
+    font-size: 13px;
+    color: gray;
+}
+.selected-option:hover{
+    cursor: pointer;
+}
+option{
+    font-size: 17px;
+}
+.safe_search{
+    text-decoration: none;
+    color: blue;
+}
+.safe_search:hover{
+    text-decoration: underline;
+}
+.advanced_search_submit{
+    margin-left: 710px;
+}
+.advanced_search_button{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(94, 94, 231);
+    border: none;
+}
+.advanced_search_button:hover{
+    border: 2px solid blue;
+}
+
+.ending_links{
+    padding-left: 50px;
+}
+.ending_links a{
+    color: blue;
+    text-decoration: none;
+}
+.ending_links a:hover{
+    text-decoration: underline;
+}
+
+.india{
+    color:#ccc;
+}
+footer {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 0; /* Add some padding to the footer content */
+    background-color: rgb(216, 209, 209);
+}
+
+footer .india,
+footer hr,
+footer .want_on_left {
+    margin: 0 20px; /* Add margin to the left and right sides of the footer content */
+}
+
+footer .india {
+    color: #888585;
+    float: left;
+     /* Align the "India" text to the left */
+     margin: 10px 10px 10px;
+     padding-left: 20px;
+     text-decoration: none;
+}
+
+footer hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+    clear: both; /* Clear the float to avoid layout issues */
+}
+
+footer a{
+    text-decoration: none;
+    color: #888585;
+}
+footer a:hover{
+    text-decoration: underline;
+}
+
+footer .want_on_left{
+    padding-top: 10px;
+    justify-content: space-evenly;
+    word-spacing: 10px;
+    margin: 10px 10px 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+    padding-left: 20px;
+}
+
+#left_thingy{
+    width: 210px;
+}
+.right_thingy_text{
+    margin-top: 0%;
+}
+#right_thingy{
+    width: 235px;
+}
