@@ -30,12 +30,12 @@ body {
 
 
 #search {
-    width: 600px; /* Set the width to your desired size */
-    height: 40px; /* Set the height to your desired size */
+    width: 600px; 
+    height: 40px; 
     margin-top: 0%;
     margin-bottom: 2%;
     border: 1px solid #ccc;
-    border-radius: 20px; /* Adjust the value to make the curve more or less pronounced */
+    border-radius: 20px;
     padding: 5px 10px;
     font-size: 16px;
     border-radius: none;
@@ -146,8 +146,6 @@ body {
     padding: 5px;
     margin-right: 5px;
   }
-  
-  /* New CSS for account image icon */
 .img {
     width: 50px;
     vertical-align: middle;
@@ -163,7 +161,7 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 10px 0; /* Add some padding to the footer content */
+    padding: 10px 0;
     background-color: rgb(70, 63, 63);
 }
 
@@ -171,14 +169,13 @@ footer .india,
 footer hr,
 footer .want_on_right,
 footer .want_on_left {
-    margin: 0 20px; /* Add margin to the left and right sides of the footer content */
+    margin: 0 20px; 
     color: #9AA0A6;
 }
 
 footer .india {
     color: #ccc;
     float: left;
-     /* Align the "India" text to the left */
      margin: 10px 10px 10px;
      padding-left: 20px;
      text-decoration: none;
@@ -187,11 +184,11 @@ footer .india {
 footer hr {
     border: 0;
     border-top: 1px solid #ccc;
-    clear: both; /* Clear the float to avoid layout issues */
+    clear: both; 
 }
 
 footer .want_on_right {
-    float: right; /* Align the links to the right */
+    float: right; 
     word-spacing: 10px;
     
 }
