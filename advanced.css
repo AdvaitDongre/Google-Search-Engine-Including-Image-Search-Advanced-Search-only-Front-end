@@ -25,27 +25,25 @@
     padding-right: 300px;
 }
 
-/* ... Keep your existing styles ... */
 
-/* Add spacing between labels and input bars */
 .on_the_left label {
     display: block;
-    margin-bottom: 5px; /* Add space between labels */
+    margin-bottom: 5px; 
     
     
 }
 
-/* Style for input bars and their container */
+
 .on_the_left .input-container {
     display: flex;
     align-items: center;
-    gap: 10px; /* Add gap between label and input bar */
+    gap: 10px; 
 }
 
 .on_the_left input {
     padding: 5px;
-    width: 100%; /* Make input bars expand to fill available space */
-    max-width: calc(50% - 10px); /* Adjust this value as needed */
+    width: 100%; 
+    max-width: calc(50% - 10px); 
 }
 .search-box{
     align-items: center;
@@ -53,9 +51,7 @@
     background-color: white;
     border: solid 1px rgb(179, 170, 170);
 }
-/* ... Your existing styles ... */
 
-/* Style for input bars and their container */
 .input-container {
     display: flex;
     align-items: center;
@@ -70,14 +66,14 @@
 }
 
 .text-on-right {
-    width: 250px; /* Set a fixed width for the labels */
+    width: 250px; 
     display: inline-block;
 }
 
 .search-box {
     padding: 5px;
     width: 100%;
-    max-width: calc(100% - 260px); /* Adjust the value based on the label width */
+    max-width: calc(100% - 260px); 
     width: 550px;
 
 }
@@ -163,20 +159,19 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 10px 0; /* Add some padding to the footer content */
+    padding: 10px 0; 
     background-color: rgb(216, 209, 209);
 }
 
 footer .india,
 footer hr,
 footer .want_on_left {
-    margin: 0 20px; /* Add margin to the left and right sides of the footer content */
+    margin: 0 20px; 
 }
 
 footer .india {
     color: #888585;
     float: left;
-     /* Align the "India" text to the left */
      margin: 10px 10px 10px;
      padding-left: 20px;
      text-decoration: none;
@@ -185,7 +180,7 @@ footer .india {
 footer hr {
     border: 0;
     border-top: 1px solid #ccc;
-    clear: both; /* Clear the float to avoid layout issues */
+    clear: both; 
 }
 
 footer a{
